@@ -1,0 +1,353 @@
+#logo{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position:  absolute;
+    padding-top: 10px;
+    padding-left: 10px;
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   margin-left: 10px;
+   background-repeat: no-repeat;
+   background-image:url(https://freedesignfile.com/upload/2020/09/Dark-green-leaf-vector-on-white-background.jpg);
+   background-attachment: fixed; 
+   background-size: 100% 100%;
+ 
+ 
+}
+#name{
+    position: relative;
+    margin-left: 500px;
+    padding-top: 140px;
+    font-style: initial;
+    font-size: 50px;
+    letter-spacing: 100px;
+
+} 
+.title{
+    background-color: rgba(98, 180, 139, 0.786);
+    background-repeat: no-repeat;
+    background-image:url(https://static.vecteezy.com/system/resources/previews/012/147/841/original/aesthetic-abstract-striped-gradient-pastel-light-green-frame-wallpaper-illustration-perfect-for-backdrop-wallpaper-postcard-background-banner-vector.jpg);
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+
+} 
+.nav-item{
+    padding-left: 100px;
+    list-style-type: none;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+     
+}
+.nav-item li{  
+    display: inline-block; 
+    background-color: rgb(75, 205, 110);
+    transition: transform .5s;
+     
+}
+.nav-item li a{
+    display:block;
+    text-decoration: none;
+   
+ 
+    text-align: center;
+    padding: 10px 80px;
+    margin-right: 10px;
+}
+
+.nav{
+     padding-top: 10px;
+    padding-left: 350px;
+     width: 1000px;
+     position:  absolute;
+}
+
+ .nav-item li:hover{
+   background-color: rgb(47, 216, 95);
+   transform: scale(1.02);
+}
+.opacity{
+    font: 1em sans-serif;
+    font-size: 20px;
+     margin-top: 70px;
+    margin-left: 1100px;
+     position:  absolute;
+     width: 140px;
+     height: 50px;
+     color: rgb(116, 116, 219);
+     background-color: rgb(31, 31, 69);
+     border-radius: 20px;
+    
+
+
+}
+#opac{
+    padding-left: 15px;
+    padding-top: 10px;
+    
+}
+a{
+    text-decoration: none;  
+}
+.social{
+    border-radius: 50%;
+   
+    padding-top: 100px;
+    padding-left: 1300px;
+    
+    
+
+}
+#fb{
+    width: 20px;
+    height: 20px;
+    
+
+}
+#wp{
+    width: 20px;
+    height: 20px; 
+}
+#map{
+    width: 20px;
+    height: 20px; 
+
+}
+#theam{
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 50px;
+   text-align: center;
+   margin-top: 40px;
+
+}
+.main{
+    padding-left: 20px;
+    position: absolute;
+}
+#hr1{
+    margin-left: 500px;
+}
+ul li{
+    font-style: italic;
+    list-style-type: circle;
+    margin-left: 20px;
+}
+.footer ul li{
+    color: white;
+}
+.ull1_1{
+    position: absolute;
+    margin-left: 50px;
+    padding-top: 30px;
+}
+.ull1_2{
+    position: relative;
+    margin-left: 350px;
+    padding-top: 30px;
+
+}
+.ull2_1{
+    position: absolute;
+    margin-left: 50px;
+    padding-top: 30px;
+}
+.ull2_2{
+    position: relative;
+    margin-left: 350px;
+    padding-top: 30px;
+
+}
+
+.boxmain1{
+    padding-left: 20px;
+
+}
+.boxmain2{
+    padding-left: 20px;
+
+}
+
+.box1{
+    width: 750px;
+    height: 200px;
+    background-color: rgb(169, 214, 214);
+    border-radius: 10px;
+    margin-left: 50px;
+    
+
+}
+.box2{
+    width: 750px;
+    height: 160px;
+    background-color: rgb(169, 214, 214);
+    border-radius: 10px;
+    margin-left: 50px;
+    
+    
+
+}
+
+
+.image1{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/004/026/653/small_2x/safe-internet-concept-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 50px;
+    margin-left: 950px;
+    width: 500px;
+    height: 600px;
+     position: absolute;
+    animation-name: animi1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+    
+}
+@keyframes animi1{
+    0%{
+        background-image:url(https://static.vecteezy.com/system/resources/thumbnails/004/026/653/small_2x/safe-internet-concept-free-vector.jpg);
+    }
+    25%{
+        background-image:url(https://media.istockphoto.com/id/1214191723/vector/young-smiling-woman-with-headphones-and-a-microphone-with-a-laptop-concept-illustration-for.jpg?s=612x612&w=0&k=20&c=2aX9ZjF9g1XFsw7_D4BrBp3FUmICBXX1G-kfeTp82o8=);
+    }
+    50%{
+        background-image:url(https://img.freepik.com/free-vector/flat-customer-support-illustration_23-2148899114.jpg?w=2000);
+    }
+    75%{
+        background-image:url(https://img.freepik.com/free-vector/flat-design-illustration-customer-support_23-2148887720.jpg);
+    
+    }
+    100%{
+        background-image: url(https://img.freepik.com/free-vector/customer-support-flat-design-illustration_23-2148889374.jpg);
+    }
+
+}
+
+
+
+
+
+#footerimg{
+    height: 600px;
+    margin-top:700px;
+    width: 1490px;
+    opacity: 80%;
+    position:absolute;
+
+    
+}
+.footer{
+    position:relative;
+    margin-top: 500px;
+    color: white;
+    
+}
+.ul3{
+    position: absolute;
+    margin-top: 250px;
+    padding-left: 150px;
+    
+    color: rgb(226, 17, 17);
+
+}
+.footer li{
+    list-style-type: none;
+    line-height:30px ;
+    color: rgb(0, 0, 0);
+    text-decoration-color: black;
+}
+.ul4{
+    position: absolute;
+    margin-top: 250px;
+    padding-left: 350px;
+    
+    color: rgb(247, 8, 8);
+
+}
+.ul5{
+    position: absolute;
+    margin-top: 250px;
+    padding-left: 550px;
+    
+    color: black;
+
+}
+.ul6{
+    position: absolute;
+    margin-top: 250px;
+    padding-left: 750px;
+    
+    color: black;
+
+}
+.hr3{
+    margin-top: 400px;
+    position:  absolute;
+    height: 4px solid;
+}
+.add{
+    position:  absolute;
+    margin-top: 450px;
+    padding-left: 150px;
+}
+.mail{
+    position:  absolute;
+    margin-top: 450px;
+    padding-left: 450px;
+}
+.all{
+    position: absolute;
+    margin-top: 350px;
+    padding-left: 1150px;
+    
+    color: rgb(255, 255, 255);
+
+}
+.footerimage{
+    
+}
+.sclicn{
+    
+}
+#callicn{
+    border: radius 100%;;
+    width: 30px;
+    height: 30px;
+    padding-top: 400px;
+    padding-left: 1400px;
+    opacity: 120%;
+}
+#insticn{
+    border-radius: 0px;
+    width: 30px;
+    height: 30px;
+    padding-top: 20px;
+    padding-left: 1400px;
+    opacity: 120%;
+}
+#fbicn{
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    padding-top: 20px;
+    padding-left: 1400px;
+    opacity: 120%;
+}
+#twittericn{
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    padding-top: 20px;
+    padding-left: 1400px;
+    opacity: 120%;
+
+}
+
